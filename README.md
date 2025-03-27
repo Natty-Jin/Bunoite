@@ -11,6 +11,7 @@ Cursor, Claude 활용한 Unity RPG 게임 코드 만들기
 
 ## 부가적 내용(시나리오, 세부 데이터 파일)
 - `Plan.md` `exp_table.json` `monster_zones.json` `structured_monsters_adjusted_money.json` 파일내용을 참조해서 만듦
+- `Code-Folder` 내부 Unity에 활용할 C# 코드
   ### 메타데이터 내용
   - `Plan.md` 게임 시나리오
   - `exp_table.json` 캐릭터 경험치 파일
