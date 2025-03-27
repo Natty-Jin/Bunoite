@@ -1,0 +1,3004 @@
+{
+  "monsters": [
+    {
+      "level": 1,
+      "name": "신성한 곰",
+      "location": "사막 분지",
+      "condition": "주간에 등장",
+      "boss": false,
+      "element": "빙속성",
+      "drop": {
+        "item1": {
+          "item": "신성한 곰 고기",
+          "type": "식재료",
+          "use": "회복 음식 제작",
+          "drop_rate": 0.003
+        },
+        "item2": {
+          "item": "신성한 곰 털가죽",
+          "type": "잡화",
+          "use": "잡화 상점 판매",
+          "drop_rate": 0.02
+        },
+        "item3": {
+          "item": "빙속성 정수",
+          "type": "속성 재료",
+          "use": "빙속성 방어구 제작",
+          "drop_rate": 0.0002
+        }
+      },
+      "money": 20,
+      "exp": 10
+    },
+    {
+      "level": 2,
+      "name": "달빛 사자",
+      "location": "얼음 협곡",
+      "condition": "밤에 등장",
+      "boss": false,
+      "element": "광속성",
+      "drop": {
+        "item1": {
+          "item": "달빛 사자 고기",
+          "type": "식재료",
+          "use": "회복 음식 제작",
+          "drop_rate": 0.003
+        },
+        "item2": {
+          "item": "달빛 사자 털가죽",
+          "type": "잡화",
+          "use": "잡화 상점 판매",
+          "drop_rate": 0.02
+        },
+        "item3": {
+          "item": "광속성 정수",
+          "type": "속성 재료",
+          "use": "광속성 방어구 제작",
+          "drop_rate": 0.0002
+        }
+      },
+      "money": 40,
+      "exp": 20
+    },
+    {
+      "level": 3,
+      "name": "얼어붙은 늑대",
+      "location": "안개숲",
+      "condition": "주간에 등장",
+      "boss": false,
+      "element": "무속성",
+      "drop": {
+        "item1": {
+          "item": "얼어붙은 늑대 고기",
+          "type": "식재료",
+          "use": "회복 음식 제작",
+          "drop_rate": 0.003
+        },
+        "item2": {
+          "item": "얼어붙은 늑대 털가죽",
+          "type": "잡화",
+          "use": "잡화 상점 판매",
+          "drop_rate": 0.02
+        },
+        "item3": {
+          "item": "무속성 정수",
+          "type": "속성 재료",
+          "use": "무속성 방어구 제작",
+          "drop_rate": 0.0002
+        }
+      },
+      "money": 60,
+      "exp": 30
+    },
+    {
+      "level": 4,
+      "name": "불타는 지네",
+      "location": "달빛 숲",
+      "condition": "밤에 등장",
+      "boss": false,
+      "element": "풍속성",
+      "drop": {
+        "item1": {
+          "item": "불타는 지네 고기",
+          "type": "식재료",
+          "use": "회복 음식 제작",
+          "drop_rate": 0.003
+        },
+        "item2": {
+          "item": "불타는 지네 털가죽",
+          "type": "잡화",
+          "use": "잡화 상점 판매",
+          "drop_rate": 0.02
+        },
+        "item3": {
+          "item": "풍속성 정수",
+          "type": "속성 재료",
+          "use": "풍속성 방어구 제작",
+          "drop_rate": 0.0002
+        }
+      },
+      "money": 80,
+      "exp": 40
+    },
+    {
+      "level": 5,
+      "name": "고대의 곰",
+      "location": "얼음 협곡",
+      "condition": "주간에 등장",
+      "boss": false,
+      "element": "화속성",
+      "drop": {
+        "item1": {
+          "item": "고대의 곰 고기",
+          "type": "식재료",
+          "use": "회복 음식 제작",
+          "drop_rate": 0.003
+        },
+        "item2": {
+          "item": "고대의 곰 털가죽",
+          "type": "잡화",
+          "use": "잡화 상점 판매",
+          "drop_rate": 0.02
+        },
+        "item3": {
+          "item": "화속성 정수",
+          "type": "속성 재료",
+          "use": "화속성 방어구 제작",
+          "drop_rate": 0.0002
+        }
+      },
+      "money": 100,
+      "exp": 50
+    },
+    {
+      "level": 6,
+      "name": "신성한 유령",
+      "location": "깊은 동굴",
+      "condition": "밤에 등장",
+      "boss": false,
+      "element": "암속성",
+      "drop": {
+        "item1": {
+          "item": "신성한 유령 고기",
+          "type": "식재료",
+          "use": "회복 음식 제작",
+          "drop_rate": 0.003
+        },
+        "item2": {
+          "item": "신성한 유령 털가죽",
+          "type": "잡화",
+          "use": "잡화 상점 판매",
+          "drop_rate": 0.02
+        },
+        "item3": {
+          "item": "암속성 정수",
+          "type": "속성 재료",
+          "use": "암속성 방어구 제작",
+          "drop_rate": 0.0002
+        }
+      },
+      "money": 120,
+      "exp": 60
+    },
+    {
+      "level": 7,
+      "name": "달빛 지네",
+      "location": "사막 분지",
+      "condition": "주간에 등장",
+      "boss": false,
+      "element": "지속성",
+      "drop": {
+        "item1": {
+          "item": "달빛 지네 고기",
+          "type": "식재료",
+          "use": "회복 음식 제작",
+          "drop_rate": 0.003
+        },
+        "item2": {
+          "item": "달빛 지네 털가죽",
+          "type": "잡화",
+          "use": "잡화 상점 판매",
+          "drop_rate": 0.02
+        },
+        "item3": {
+          "item": "지속성 정수",
+          "type": "속성 재료",
+          "use": "지속성 방어구 제작",
+          "drop_rate": 0.0002
+        }
+      },
+      "money": 140,
+      "exp": 70
+    },
+    {
+      "level": 8,
+      "name": "불타는 박쥐",
+      "location": "깊은 동굴",
+      "condition": "밤에 등장",
+      "boss": false,
+      "element": "지속성",
+      "drop": {
+        "item1": {
+          "item": "불타는 박쥐 고기",
+          "type": "식재료",
+          "use": "회복 음식 제작",
+          "drop_rate": 0.003
+        },
+        "item2": {
+          "item": "불타는 박쥐 털가죽",
+          "type": "잡화",
+          "use": "잡화 상점 판매",
+          "drop_rate": 0.02
+        },
+        "item3": {
+          "item": "지속성 정수",
+          "type": "속성 재료",
+          "use": "지속성 방어구 제작",
+          "drop_rate": 0.0002
+        }
+      },
+      "money": 160,
+      "exp": 80
+    },
+    {
+      "level": 9,
+      "name": "파멸의 늑대",
+      "location": "불의 계곡",
+      "condition": "주간에 등장",
+      "boss": false,
+      "element": "무속성",
+      "drop": {
+        "item1": {
+          "item": "파멸의 늑대 고기",
+          "type": "식재료",
+          "use": "회복 음식 제작",
+          "drop_rate": 0.003
+        },
+        "item2": {
+          "item": "파멸의 늑대 털가죽",
+          "type": "잡화",
+          "use": "잡화 상점 판매",
+          "drop_rate": 0.02
+        },
+        "item3": {
+          "item": "무속성 정수",
+          "type": "속성 재료",
+          "use": "무속성 방어구 제작",
+          "drop_rate": 0.0002
+        }
+      },
+      "money": 180,
+      "exp": 90
+    },
+    {
+      "level": 10,
+      "name": "고대의 늑대",
+      "location": "사막 분지",
+      "condition": "밤에 등장",
+      "boss": false,
+      "element": "암속성",
+      "drop": {
+        "item1": {
+          "item": "고대의 늑대 고기",
+          "type": "식재료",
+          "use": "회복 음식 제작",
+          "drop_rate": 0.003
+        },
+        "item2": {
+          "item": "고대의 늑대 털가죽",
+          "type": "잡화",
+          "use": "잡화 상점 판매",
+          "drop_rate": 0.02
+        },
+        "item3": {
+          "item": "암속성 정수",
+          "type": "속성 재료",
+          "use": "암속성 방어구 제작",
+          "drop_rate": 0.0002
+        }
+      },
+      "money": 200,
+      "exp": 100
+    },
+    {
+      "level": 11,
+      "name": "신성한 늑대",
+      "location": "얼음 협곡",
+      "condition": "주간에 등장",
+      "boss": false,
+      "element": "풍속성",
+      "drop": {
+        "item1": {
+          "item": "신성한 늑대 고기",
+          "type": "식재료",
+          "use": "회복 음식 제작",
+          "drop_rate": 0.003
+        },
+        "item2": {
+          "item": "신성한 늑대 털가죽",
+          "type": "잡화",
+          "use": "잡화 상점 판매",
+          "drop_rate": 0.02
+        },
+        "item3": {
+          "item": "풍속성 정수",
+          "type": "속성 재료",
+          "use": "풍속성 방어구 제작",
+          "drop_rate": 0.0002
+        }
+      },
+      "money": 220,
+      "exp": 110
+    },
+    {
+      "level": 12,
+      "name": "피투성이 늑대",
+      "location": "깊은 동굴",
+      "condition": "밤에 등장",
+      "boss": false,
+      "element": "풍속성",
+      "drop": {
+        "item1": {
+          "item": "피투성이 늑대 고기",
+          "type": "식재료",
+          "use": "회복 음식 제작",
+          "drop_rate": 0.003
+        },
+        "item2": {
+          "item": "피투성이 늑대 털가죽",
+          "type": "잡화",
+          "use": "잡화 상점 판매",
+          "drop_rate": 0.02
+        },
+        "item3": {
+          "item": "풍속성 정수",
+          "type": "속성 재료",
+          "use": "풍속성 방어구 제작",
+          "drop_rate": 0.0002
+        }
+      },
+      "money": 240,
+      "exp": 120
+    },
+    {
+      "level": 13,
+      "name": "신성한 지네",
+      "location": "불의 계곡",
+      "condition": "주간에 등장",
+      "boss": false,
+      "element": "화속성",
+      "drop": {
+        "item1": {
+          "item": "신성한 지네 고기",
+          "type": "식재료",
+          "use": "회복 음식 제작",
+          "drop_rate": 0.003
+        },
+        "item2": {
+          "item": "신성한 지네 털가죽",
+          "type": "잡화",
+          "use": "잡화 상점 판매",
+          "drop_rate": 0.02
+        },
+        "item3": {
+          "item": "화속성 정수",
+          "type": "속성 재료",
+          "use": "화속성 방어구 제작",
+          "drop_rate": 0.0002
+        }
+      },
+      "money": 260,
+      "exp": 130
+    },
+    {
+      "level": 14,
+      "name": "얼어붙은 슬라임",
+      "location": "달빛 숲",
+      "condition": "밤에 등장",
+      "boss": false,
+      "element": "광속성",
+      "drop": {
+        "item1": {
+          "item": "얼어붙은 슬라임 고기",
+          "type": "식재료",
+          "use": "회복 음식 제작",
+          "drop_rate": 0.003
+        },
+        "item2": {
+          "item": "얼어붙은 슬라임 털가죽",
+          "type": "잡화",
+          "use": "잡화 상점 판매",
+          "drop_rate": 0.02
+        },
+        "item3": {
+          "item": "광속성 정수",
+          "type": "속성 재료",
+          "use": "광속성 방어구 제작",
+          "drop_rate": 0.0002
+        }
+      },
+      "money": 280,
+      "exp": 140
+    },
+    {
+      "level": 15,
+      "name": "달빛 도마뱀",
+      "location": "얼음 협곡",
+      "condition": "주간에 등장",
+      "boss": false,
+      "element": "화속성",
+      "drop": {
+        "item1": {
+          "item": "달빛 도마뱀 고기",
+          "type": "식재료",
+          "use": "회복 음식 제작",
+          "drop_rate": 0.003
+        },
+        "item2": {
+          "item": "달빛 도마뱀 털가죽",
+          "type": "잡화",
+          "use": "잡화 상점 판매",
+          "drop_rate": 0.02
+        },
+        "item3": {
+          "item": "화속성 정수",
+          "type": "속성 재료",
+          "use": "화속성 방어구 제작",
+          "drop_rate": 0.0002
+        }
+      },
+      "money": 300,
+      "exp": 150
+    },
+    {
+      "level": 16,
+      "name": "달빛 박쥐",
+      "location": "달빛 숲",
+      "condition": "밤에 등장",
+      "boss": false,
+      "element": "빙속성",
+      "drop": {
+        "item1": {
+          "item": "달빛 박쥐 고기",
+          "type": "식재료",
+          "use": "회복 음식 제작",
+          "drop_rate": 0.003
+        },
+        "item2": {
+          "item": "달빛 박쥐 털가죽",
+          "type": "잡화",
+          "use": "잡화 상점 판매",
+          "drop_rate": 0.02
+        },
+        "item3": {
+          "item": "빙속성 정수",
+          "type": "속성 재료",
+          "use": "빙속성 방어구 제작",
+          "drop_rate": 0.0002
+        }
+      },
+      "money": 320,
+      "exp": 160
+    },
+    {
+      "level": 17,
+      "name": "피투성이 지네",
+      "location": "얼음 협곡",
+      "condition": "주간에 등장",
+      "boss": false,
+      "element": "암속성",
+      "drop": {
+        "item1": {
+          "item": "피투성이 지네 고기",
+          "type": "식재료",
+          "use": "회복 음식 제작",
+          "drop_rate": 0.003
+        },
+        "item2": {
+          "item": "피투성이 지네 털가죽",
+          "type": "잡화",
+          "use": "잡화 상점 판매",
+          "drop_rate": 0.02
+        },
+        "item3": {
+          "item": "암속성 정수",
+          "type": "속성 재료",
+          "use": "암속성 방어구 제작",
+          "drop_rate": 0.0002
+        }
+      },
+      "money": 340,
+      "exp": 170
+    },
+    {
+      "level": 18,
+      "name": "피투성이 지네",
+      "location": "달빛 숲",
+      "condition": "밤에 등장",
+      "boss": false,
+      "element": "빙속성",
+      "drop": {
+        "item1": {
+          "item": "피투성이 지네 고기",
+          "type": "식재료",
+          "use": "회복 음식 제작",
+          "drop_rate": 0.003
+        },
+        "item2": {
+          "item": "피투성이 지네 털가죽",
+          "type": "잡화",
+          "use": "잡화 상점 판매",
+          "drop_rate": 0.02
+        },
+        "item3": {
+          "item": "빙속성 정수",
+          "type": "속성 재료",
+          "use": "빙속성 방어구 제작",
+          "drop_rate": 0.0002
+        }
+      },
+      "money": 360,
+      "exp": 180
+    },
+    {
+      "level": 19,
+      "name": "얼어붙은 곰",
+      "location": "초원지대",
+      "condition": "주간에 등장",
+      "boss": false,
+      "element": "암속성",
+      "drop": {
+        "item1": {
+          "item": "얼어붙은 곰 고기",
+          "type": "식재료",
+          "use": "회복 음식 제작",
+          "drop_rate": 0.003
+        },
+        "item2": {
+          "item": "얼어붙은 곰 털가죽",
+          "type": "잡화",
+          "use": "잡화 상점 판매",
+          "drop_rate": 0.02
+        },
+        "item3": {
+          "item": "암속성 정수",
+          "type": "속성 재료",
+          "use": "암속성 방어구 제작",
+          "drop_rate": 0.0002
+        }
+      },
+      "money": 380,
+      "exp": 190
+    },
+    {
+      "level": 20,
+      "name": "고대의 유령",
+      "location": "독의 늪지",
+      "condition": "밤에 등장",
+      "boss": false,
+      "element": "빙속성",
+      "drop": {
+        "item1": {
+          "item": "고대의 유령 고기",
+          "type": "식재료",
+          "use": "회복 음식 제작",
+          "drop_rate": 0.003
+        },
+        "item2": {
+          "item": "고대의 유령 털가죽",
+          "type": "잡화",
+          "use": "잡화 상점 판매",
+          "drop_rate": 0.02
+        },
+        "item3": {
+          "item": "빙속성 정수",
+          "type": "속성 재료",
+          "use": "빙속성 방어구 제작",
+          "drop_rate": 0.0002
+        }
+      },
+      "money": 400,
+      "exp": 200
+    },
+    {
+      "level": 21,
+      "name": "파멸의 골렘",
+      "location": "독의 늪지",
+      "condition": "주간에 등장",
+      "boss": false,
+      "element": "풍속성",
+      "drop": {
+        "item1": {
+          "item": "파멸의 골렘 고기",
+          "type": "식재료",
+          "use": "회복 음식 제작",
+          "drop_rate": 0.003
+        },
+        "item2": {
+          "item": "파멸의 골렘 털가죽",
+          "type": "잡화",
+          "use": "잡화 상점 판매",
+          "drop_rate": 0.02
+        },
+        "item3": {
+          "item": "풍속성 정수",
+          "type": "속성 재료",
+          "use": "풍속성 방어구 제작",
+          "drop_rate": 0.0002
+        }
+      },
+      "money": 420,
+      "exp": 210
+    },
+    {
+      "level": 22,
+      "name": "번개 지네",
+      "location": "독의 늪지",
+      "condition": "밤에 등장",
+      "boss": false,
+      "element": "무속성",
+      "drop": {
+        "item1": {
+          "item": "번개 지네 고기",
+          "type": "식재료",
+          "use": "회복 음식 제작",
+          "drop_rate": 0.003
+        },
+        "item2": {
+          "item": "번개 지네 털가죽",
+          "type": "잡화",
+          "use": "잡화 상점 판매",
+          "drop_rate": 0.02
+        },
+        "item3": {
+          "item": "무속성 정수",
+          "type": "속성 재료",
+          "use": "무속성 방어구 제작",
+          "drop_rate": 0.0002
+        }
+      },
+      "money": 440,
+      "exp": 220
+    },
+    {
+      "level": 23,
+      "name": "광기의 박쥐",
+      "location": "초원지대",
+      "condition": "주간에 등장",
+      "boss": false,
+      "element": "빙속성",
+      "drop": {
+        "item1": {
+          "item": "광기의 박쥐 고기",
+          "type": "식재료",
+          "use": "회복 음식 제작",
+          "drop_rate": 0.003
+        },
+        "item2": {
+          "item": "광기의 박쥐 털가죽",
+          "type": "잡화",
+          "use": "잡화 상점 판매",
+          "drop_rate": 0.02
+        },
+        "item3": {
+          "item": "빙속성 정수",
+          "type": "속성 재료",
+          "use": "빙속성 방어구 제작",
+          "drop_rate": 0.0002
+        }
+      },
+      "money": 460,
+      "exp": 230
+    },
+    {
+      "level": 24,
+      "name": "얼어붙은 지네",
+      "location": "불의 계곡",
+      "condition": "밤에 등장",
+      "boss": false,
+      "element": "지속성",
+      "drop": {
+        "item1": {
+          "item": "얼어붙은 지네 고기",
+          "type": "식재료",
+          "use": "회복 음식 제작",
+          "drop_rate": 0.003
+        },
+        "item2": {
+          "item": "얼어붙은 지네 털가죽",
+          "type": "잡화",
+          "use": "잡화 상점 판매",
+          "drop_rate": 0.02
+        },
+        "item3": {
+          "item": "지속성 정수",
+          "type": "속성 재료",
+          "use": "지속성 방어구 제작",
+          "drop_rate": 0.0002
+        }
+      },
+      "money": 480,
+      "exp": 240
+    },
+    {
+      "level": 25,
+      "name": "얼어붙은 곰",
+      "location": "안개숲",
+      "condition": "주간에 등장",
+      "boss": true,
+      "element": "빙속성",
+      "drop": {
+        "item1": {
+          "item": "얼어붙은 곰 고기",
+          "type": "식재료",
+          "use": "회복 음식 제작",
+          "drop_rate": 0.003
+        },
+        "item2": {
+          "item": "얼어붙은 곰 털가죽",
+          "type": "잡화",
+          "use": "잡화 상점 판매",
+          "drop_rate": 0.02
+        },
+        "item3": {
+          "item": "빙속성 정수",
+          "type": "속성 재료",
+          "use": "빙속성 방어구 제작",
+          "drop_rate": 0.0002
+        }
+      },
+      "money": 500,
+      "exp": 250
+    },
+    {
+      "level": 26,
+      "name": "피투성이 유령",
+      "location": "초원지대",
+      "condition": "밤에 등장",
+      "boss": false,
+      "element": "화속성",
+      "drop": {
+        "item1": {
+          "item": "피투성이 유령 고기",
+          "type": "식재료",
+          "use": "회복 음식 제작",
+          "drop_rate": 0.003
+        },
+        "item2": {
+          "item": "피투성이 유령 털가죽",
+          "type": "잡화",
+          "use": "잡화 상점 판매",
+          "drop_rate": 0.02
+        },
+        "item3": {
+          "item": "화속성 정수",
+          "type": "속성 재료",
+          "use": "화속성 방어구 제작",
+          "drop_rate": 0.0002
+        }
+      },
+      "money": 520,
+      "exp": 260
+    },
+    {
+      "level": 27,
+      "name": "어둠의 지네",
+      "location": "불의 계곡",
+      "condition": "주간에 등장",
+      "boss": false,
+      "element": "암속성",
+      "drop": {
+        "item1": {
+          "item": "어둠의 지네 고기",
+          "type": "식재료",
+          "use": "회복 음식 제작",
+          "drop_rate": 0.003
+        },
+        "item2": {
+          "item": "어둠의 지네 털가죽",
+          "type": "잡화",
+          "use": "잡화 상점 판매",
+          "drop_rate": 0.02
+        },
+        "item3": {
+          "item": "암속성 정수",
+          "type": "속성 재료",
+          "use": "암속성 방어구 제작",
+          "drop_rate": 0.0002
+        }
+      },
+      "money": 540,
+      "exp": 270
+    },
+    {
+      "level": 28,
+      "name": "피투성이 늑대",
+      "location": "깊은 동굴",
+      "condition": "밤에 등장",
+      "boss": false,
+      "element": "무속성",
+      "drop": {
+        "item1": {
+          "item": "피투성이 늑대 고기",
+          "type": "식재료",
+          "use": "회복 음식 제작",
+          "drop_rate": 0.003
+        },
+        "item2": {
+          "item": "피투성이 늑대 털가죽",
+          "type": "잡화",
+          "use": "잡화 상점 판매",
+          "drop_rate": 0.02
+        },
+        "item3": {
+          "item": "무속성 정수",
+          "type": "속성 재료",
+          "use": "무속성 방어구 제작",
+          "drop_rate": 0.0002
+        }
+      },
+      "money": 560,
+      "exp": 280
+    },
+    {
+      "level": 29,
+      "name": "불타는 슬라임",
+      "location": "깊은 동굴",
+      "condition": "주간에 등장",
+      "boss": false,
+      "element": "광속성",
+      "drop": {
+        "item1": {
+          "item": "불타는 슬라임 고기",
+          "type": "식재료",
+          "use": "회복 음식 제작",
+          "drop_rate": 0.003
+        },
+        "item2": {
+          "item": "불타는 슬라임 털가죽",
+          "type": "잡화",
+          "use": "잡화 상점 판매",
+          "drop_rate": 0.02
+        },
+        "item3": {
+          "item": "광속성 정수",
+          "type": "속성 재료",
+          "use": "광속성 방어구 제작",
+          "drop_rate": 0.0002
+        }
+      },
+      "money": 580,
+      "exp": 290
+    },
+    {
+      "level": 30,
+      "name": "고대의 곰",
+      "location": "불의 계곡",
+      "condition": "밤에 등장",
+      "boss": false,
+      "element": "광속성",
+      "drop": {
+        "item1": {
+          "item": "고대의 곰 고기",
+          "type": "식재료",
+          "use": "회복 음식 제작",
+          "drop_rate": 0.003
+        },
+        "item2": {
+          "item": "고대의 곰 털가죽",
+          "type": "잡화",
+          "use": "잡화 상점 판매",
+          "drop_rate": 0.02
+        },
+        "item3": {
+          "item": "광속성 정수",
+          "type": "속성 재료",
+          "use": "광속성 방어구 제작",
+          "drop_rate": 0.0002
+        }
+      },
+      "money": 600,
+      "exp": 300
+    },
+    {
+      "level": 31,
+      "name": "달빛 곰",
+      "location": "초원지대",
+      "condition": "주간에 등장",
+      "boss": false,
+      "element": "빙속성",
+      "drop": {
+        "item1": {
+          "item": "달빛 곰 고기",
+          "type": "식재료",
+          "use": "회복 음식 제작",
+          "drop_rate": 0.003
+        },
+        "item2": {
+          "item": "달빛 곰 털가죽",
+          "type": "잡화",
+          "use": "잡화 상점 판매",
+          "drop_rate": 0.02
+        },
+        "item3": {
+          "item": "빙속성 정수",
+          "type": "속성 재료",
+          "use": "빙속성 방어구 제작",
+          "drop_rate": 0.0002
+        }
+      },
+      "money": 620,
+      "exp": 310
+    },
+    {
+      "level": 32,
+      "name": "신성한 도마뱀",
+      "location": "깊은 동굴",
+      "condition": "밤에 등장",
+      "boss": false,
+      "element": "화속성",
+      "drop": {
+        "item1": {
+          "item": "신성한 도마뱀 고기",
+          "type": "식재료",
+          "use": "회복 음식 제작",
+          "drop_rate": 0.003
+        },
+        "item2": {
+          "item": "신성한 도마뱀 털가죽",
+          "type": "잡화",
+          "use": "잡화 상점 판매",
+          "drop_rate": 0.02
+        },
+        "item3": {
+          "item": "화속성 정수",
+          "type": "속성 재료",
+          "use": "화속성 방어구 제작",
+          "drop_rate": 0.0002
+        }
+      },
+      "money": 640,
+      "exp": 320
+    },
+    {
+      "level": 33,
+      "name": "파멸의 지네",
+      "location": "사막 분지",
+      "condition": "주간에 등장",
+      "boss": false,
+      "element": "지속성",
+      "drop": {
+        "item1": {
+          "item": "파멸의 지네 고기",
+          "type": "식재료",
+          "use": "회복 음식 제작",
+          "drop_rate": 0.003
+        },
+        "item2": {
+          "item": "파멸의 지네 털가죽",
+          "type": "잡화",
+          "use": "잡화 상점 판매",
+          "drop_rate": 0.02
+        },
+        "item3": {
+          "item": "지속성 정수",
+          "type": "속성 재료",
+          "use": "지속성 방어구 제작",
+          "drop_rate": 0.0002
+        }
+      },
+      "money": 660,
+      "exp": 330
+    },
+    {
+      "level": 34,
+      "name": "어둠의 도마뱀",
+      "location": "초원지대",
+      "condition": "밤에 등장",
+      "boss": false,
+      "element": "화속성",
+      "drop": {
+        "item1": {
+          "item": "어둠의 도마뱀 고기",
+          "type": "식재료",
+          "use": "회복 음식 제작",
+          "drop_rate": 0.003
+        },
+        "item2": {
+          "item": "어둠의 도마뱀 털가죽",
+          "type": "잡화",
+          "use": "잡화 상점 판매",
+          "drop_rate": 0.02
+        },
+        "item3": {
+          "item": "화속성 정수",
+          "type": "속성 재료",
+          "use": "화속성 방어구 제작",
+          "drop_rate": 0.0002
+        }
+      },
+      "money": 680,
+      "exp": 340
+    },
+    {
+      "level": 35,
+      "name": "고대의 유령",
+      "location": "사막 분지",
+      "condition": "주간에 등장",
+      "boss": false,
+      "element": "지속성",
+      "drop": {
+        "item1": {
+          "item": "고대의 유령 고기",
+          "type": "식재료",
+          "use": "회복 음식 제작",
+          "drop_rate": 0.003
+        },
+        "item2": {
+          "item": "고대의 유령 털가죽",
+          "type": "잡화",
+          "use": "잡화 상점 판매",
+          "drop_rate": 0.02
+        },
+        "item3": {
+          "item": "지속성 정수",
+          "type": "속성 재료",
+          "use": "지속성 방어구 제작",
+          "drop_rate": 0.0002
+        }
+      },
+      "money": 700,
+      "exp": 350
+    },
+    {
+      "level": 36,
+      "name": "파멸의 드래곤",
+      "location": "독의 늪지",
+      "condition": "밤에 등장",
+      "boss": false,
+      "element": "지속성",
+      "drop": {
+        "item1": {
+          "item": "파멸의 드래곤 고기",
+          "type": "식재료",
+          "use": "회복 음식 제작",
+          "drop_rate": 0.003
+        },
+        "item2": {
+          "item": "파멸의 드래곤 털가죽",
+          "type": "잡화",
+          "use": "잡화 상점 판매",
+          "drop_rate": 0.02
+        },
+        "item3": {
+          "item": "지속성 정수",
+          "type": "속성 재료",
+          "use": "지속성 방어구 제작",
+          "drop_rate": 0.0002
+        }
+      },
+      "money": 720,
+      "exp": 360
+    },
+    {
+      "level": 37,
+      "name": "광기의 박쥐",
+      "location": "얼음 협곡",
+      "condition": "주간에 등장",
+      "boss": false,
+      "element": "화속성",
+      "drop": {
+        "item1": {
+          "item": "광기의 박쥐 고기",
+          "type": "식재료",
+          "use": "회복 음식 제작",
+          "drop_rate": 0.003
+        },
+        "item2": {
+          "item": "광기의 박쥐 털가죽",
+          "type": "잡화",
+          "use": "잡화 상점 판매",
+          "drop_rate": 0.02
+        },
+        "item3": {
+          "item": "화속성 정수",
+          "type": "속성 재료",
+          "use": "화속성 방어구 제작",
+          "drop_rate": 0.0002
+        }
+      },
+      "money": 740,
+      "exp": 370
+    },
+    {
+      "level": 38,
+      "name": "피투성이 드래곤",
+      "location": "깊은 동굴",
+      "condition": "밤에 등장",
+      "boss": false,
+      "element": "지속성",
+      "drop": {
+        "item1": {
+          "item": "피투성이 드래곤 고기",
+          "type": "식재료",
+          "use": "회복 음식 제작",
+          "drop_rate": 0.003
+        },
+        "item2": {
+          "item": "피투성이 드래곤 털가죽",
+          "type": "잡화",
+          "use": "잡화 상점 판매",
+          "drop_rate": 0.02
+        },
+        "item3": {
+          "item": "지속성 정수",
+          "type": "속성 재료",
+          "use": "지속성 방어구 제작",
+          "drop_rate": 0.0002
+        }
+      },
+      "money": 760,
+      "exp": 380
+    },
+    {
+      "level": 39,
+      "name": "불타는 지네",
+      "location": "얼음 협곡",
+      "condition": "주간에 등장",
+      "boss": false,
+      "element": "수속성",
+      "drop": {
+        "item1": {
+          "item": "불타는 지네 고기",
+          "type": "식재료",
+          "use": "회복 음식 제작",
+          "drop_rate": 0.003
+        },
+        "item2": {
+          "item": "불타는 지네 털가죽",
+          "type": "잡화",
+          "use": "잡화 상점 판매",
+          "drop_rate": 0.02
+        },
+        "item3": {
+          "item": "수속성 정수",
+          "type": "속성 재료",
+          "use": "수속성 방어구 제작",
+          "drop_rate": 0.0002
+        }
+      },
+      "money": 780,
+      "exp": 390
+    },
+    {
+      "level": 40,
+      "name": "파멸의 골렘",
+      "location": "달빛 숲",
+      "condition": "밤에 등장",
+      "boss": false,
+      "element": "지속성",
+      "drop": {
+        "item1": {
+          "item": "파멸의 골렘 고기",
+          "type": "식재료",
+          "use": "회복 음식 제작",
+          "drop_rate": 0.003
+        },
+        "item2": {
+          "item": "파멸의 골렘 털가죽",
+          "type": "잡화",
+          "use": "잡화 상점 판매",
+          "drop_rate": 0.02
+        },
+        "item3": {
+          "item": "지속성 정수",
+          "type": "속성 재료",
+          "use": "지속성 방어구 제작",
+          "drop_rate": 0.0002
+        }
+      },
+      "money": 800,
+      "exp": 400
+    },
+    {
+      "level": 41,
+      "name": "신성한 유령",
+      "location": "독의 늪지",
+      "condition": "주간에 등장",
+      "boss": false,
+      "element": "화속성",
+      "drop": {
+        "item1": {
+          "item": "신성한 유령 고기",
+          "type": "식재료",
+          "use": "회복 음식 제작",
+          "drop_rate": 0.003
+        },
+        "item2": {
+          "item": "신성한 유령 털가죽",
+          "type": "잡화",
+          "use": "잡화 상점 판매",
+          "drop_rate": 0.02
+        },
+        "item3": {
+          "item": "화속성 정수",
+          "type": "속성 재료",
+          "use": "화속성 방어구 제작",
+          "drop_rate": 0.0002
+        }
+      },
+      "money": 820,
+      "exp": 410
+    },
+    {
+      "level": 42,
+      "name": "광기의 사자",
+      "location": "달빛 숲",
+      "condition": "밤에 등장",
+      "boss": false,
+      "element": "화속성",
+      "drop": {
+        "item1": {
+          "item": "광기의 사자 고기",
+          "type": "식재료",
+          "use": "회복 음식 제작",
+          "drop_rate": 0.003
+        },
+        "item2": {
+          "item": "광기의 사자 털가죽",
+          "type": "잡화",
+          "use": "잡화 상점 판매",
+          "drop_rate": 0.02
+        },
+        "item3": {
+          "item": "화속성 정수",
+          "type": "속성 재료",
+          "use": "화속성 방어구 제작",
+          "drop_rate": 0.0002
+        }
+      },
+      "money": 840,
+      "exp": 420
+    },
+    {
+      "level": 43,
+      "name": "얼어붙은 박쥐",
+      "location": "달빛 숲",
+      "condition": "주간에 등장",
+      "boss": false,
+      "element": "광속성",
+      "drop": {
+        "item1": {
+          "item": "얼어붙은 박쥐 고기",
+          "type": "식재료",
+          "use": "회복 음식 제작",
+          "drop_rate": 0.003
+        },
+        "item2": {
+          "item": "얼어붙은 박쥐 털가죽",
+          "type": "잡화",
+          "use": "잡화 상점 판매",
+          "drop_rate": 0.02
+        },
+        "item3": {
+          "item": "광속성 정수",
+          "type": "속성 재료",
+          "use": "광속성 방어구 제작",
+          "drop_rate": 0.0002
+        }
+      },
+      "money": 860,
+      "exp": 430
+    },
+    {
+      "level": 44,
+      "name": "고대의 사자",
+      "location": "불의 계곡",
+      "condition": "밤에 등장",
+      "boss": false,
+      "element": "무속성",
+      "drop": {
+        "item1": {
+          "item": "고대의 사자 고기",
+          "type": "식재료",
+          "use": "회복 음식 제작",
+          "drop_rate": 0.003
+        },
+        "item2": {
+          "item": "고대의 사자 털가죽",
+          "type": "잡화",
+          "use": "잡화 상점 판매",
+          "drop_rate": 0.02
+        },
+        "item3": {
+          "item": "무속성 정수",
+          "type": "속성 재료",
+          "use": "무속성 방어구 제작",
+          "drop_rate": 0.0002
+        }
+      },
+      "money": 880,
+      "exp": 440
+    },
+    {
+      "level": 45,
+      "name": "광기의 지네",
+      "location": "초원지대",
+      "condition": "주간에 등장",
+      "boss": false,
+      "element": "빙속성",
+      "drop": {
+        "item1": {
+          "item": "광기의 지네 고기",
+          "type": "식재료",
+          "use": "회복 음식 제작",
+          "drop_rate": 0.003
+        },
+        "item2": {
+          "item": "광기의 지네 털가죽",
+          "type": "잡화",
+          "use": "잡화 상점 판매",
+          "drop_rate": 0.02
+        },
+        "item3": {
+          "item": "빙속성 정수",
+          "type": "속성 재료",
+          "use": "빙속성 방어구 제작",
+          "drop_rate": 0.0002
+        }
+      },
+      "money": 900,
+      "exp": 450
+    },
+    {
+      "level": 46,
+      "name": "고대의 곰",
+      "location": "사막 분지",
+      "condition": "밤에 등장",
+      "boss": false,
+      "element": "암속성",
+      "drop": {
+        "item1": {
+          "item": "고대의 곰 고기",
+          "type": "식재료",
+          "use": "회복 음식 제작",
+          "drop_rate": 0.003
+        },
+        "item2": {
+          "item": "고대의 곰 털가죽",
+          "type": "잡화",
+          "use": "잡화 상점 판매",
+          "drop_rate": 0.02
+        },
+        "item3": {
+          "item": "암속성 정수",
+          "type": "속성 재료",
+          "use": "암속성 방어구 제작",
+          "drop_rate": 0.0002
+        }
+      },
+      "money": 920,
+      "exp": 460
+    },
+    {
+      "level": 47,
+      "name": "달빛 유령",
+      "location": "초원지대",
+      "condition": "주간에 등장",
+      "boss": false,
+      "element": "빙속성",
+      "drop": {
+        "item1": {
+          "item": "달빛 유령 고기",
+          "type": "식재료",
+          "use": "회복 음식 제작",
+          "drop_rate": 0.003
+        },
+        "item2": {
+          "item": "달빛 유령 털가죽",
+          "type": "잡화",
+          "use": "잡화 상점 판매",
+          "drop_rate": 0.02
+        },
+        "item3": {
+          "item": "빙속성 정수",
+          "type": "속성 재료",
+          "use": "빙속성 방어구 제작",
+          "drop_rate": 0.0002
+        }
+      },
+      "money": 940,
+      "exp": 470
+    },
+    {
+      "level": 48,
+      "name": "달빛 사자",
+      "location": "초원지대",
+      "condition": "밤에 등장",
+      "boss": false,
+      "element": "광속성",
+      "drop": {
+        "item1": {
+          "item": "달빛 사자 고기",
+          "type": "식재료",
+          "use": "회복 음식 제작",
+          "drop_rate": 0.003
+        },
+        "item2": {
+          "item": "달빛 사자 털가죽",
+          "type": "잡화",
+          "use": "잡화 상점 판매",
+          "drop_rate": 0.02
+        },
+        "item3": {
+          "item": "광속성 정수",
+          "type": "속성 재료",
+          "use": "광속성 방어구 제작",
+          "drop_rate": 0.0002
+        }
+      },
+      "money": 960,
+      "exp": 480
+    },
+    {
+      "level": 49,
+      "name": "불타는 골렘",
+      "location": "달빛 숲",
+      "condition": "주간에 등장",
+      "boss": false,
+      "element": "암속성",
+      "drop": {
+        "item1": {
+          "item": "불타는 골렘 고기",
+          "type": "식재료",
+          "use": "회복 음식 제작",
+          "drop_rate": 0.003
+        },
+        "item2": {
+          "item": "불타는 골렘 털가죽",
+          "type": "잡화",
+          "use": "잡화 상점 판매",
+          "drop_rate": 0.02
+        },
+        "item3": {
+          "item": "암속성 정수",
+          "type": "속성 재료",
+          "use": "암속성 방어구 제작",
+          "drop_rate": 0.0002
+        }
+      },
+      "money": 980,
+      "exp": 490
+    },
+    {
+      "level": 50,
+      "name": "어둠의 박쥐",
+      "location": "안개숲",
+      "condition": "밤에 등장",
+      "boss": true,
+      "element": "광속성",
+      "drop": {
+        "item1": {
+          "item": "어둠의 박쥐 고기",
+          "type": "식재료",
+          "use": "회복 음식 제작",
+          "drop_rate": 0.003
+        },
+        "item2": {
+          "item": "어둠의 박쥐 털가죽",
+          "type": "잡화",
+          "use": "잡화 상점 판매",
+          "drop_rate": 0.02
+        },
+        "item3": {
+          "item": "광속성 정수",
+          "type": "속성 재료",
+          "use": "광속성 방어구 제작",
+          "drop_rate": 0.0002
+        }
+      },
+      "money": 1000,
+      "exp": 500
+    },
+    {
+      "level": 51,
+      "name": "달빛 박쥐",
+      "location": "얼음 협곡",
+      "condition": "주간에 등장",
+      "boss": false,
+      "element": "수속성",
+      "drop": {
+        "item1": {
+          "item": "달빛 박쥐 고기",
+          "type": "식재료",
+          "use": "회복 음식 제작",
+          "drop_rate": 0.003
+        },
+        "item2": {
+          "item": "달빛 박쥐 털가죽",
+          "type": "잡화",
+          "use": "잡화 상점 판매",
+          "drop_rate": 0.02
+        },
+        "item3": {
+          "item": "수속성 정수",
+          "type": "속성 재료",
+          "use": "수속성 방어구 제작",
+          "drop_rate": 0.0002
+        }
+      },
+      "money": 1020,
+      "exp": 510
+    },
+    {
+      "level": 52,
+      "name": "피투성이 드래곤",
+      "location": "깊은 동굴",
+      "condition": "밤에 등장",
+      "boss": false,
+      "element": "풍속성",
+      "drop": {
+        "item1": {
+          "item": "피투성이 드래곤 고기",
+          "type": "식재료",
+          "use": "회복 음식 제작",
+          "drop_rate": 0.003
+        },
+        "item2": {
+          "item": "피투성이 드래곤 털가죽",
+          "type": "잡화",
+          "use": "잡화 상점 판매",
+          "drop_rate": 0.02
+        },
+        "item3": {
+          "item": "풍속성 정수",
+          "type": "속성 재료",
+          "use": "풍속성 방어구 제작",
+          "drop_rate": 0.0002
+        }
+      },
+      "money": 1040,
+      "exp": 520
+    },
+    {
+      "level": 53,
+      "name": "불타는 유령",
+      "location": "초원지대",
+      "condition": "주간에 등장",
+      "boss": false,
+      "element": "화속성",
+      "drop": {
+        "item1": {
+          "item": "불타는 유령 고기",
+          "type": "식재료",
+          "use": "회복 음식 제작",
+          "drop_rate": 0.003
+        },
+        "item2": {
+          "item": "불타는 유령 털가죽",
+          "type": "잡화",
+          "use": "잡화 상점 판매",
+          "drop_rate": 0.02
+        },
+        "item3": {
+          "item": "화속성 정수",
+          "type": "속성 재료",
+          "use": "화속성 방어구 제작",
+          "drop_rate": 0.0002
+        }
+      },
+      "money": 1060,
+      "exp": 530
+    },
+    {
+      "level": 54,
+      "name": "얼어붙은 슬라임",
+      "location": "얼음 협곡",
+      "condition": "밤에 등장",
+      "boss": false,
+      "element": "빙속성",
+      "drop": {
+        "item1": {
+          "item": "얼어붙은 슬라임 고기",
+          "type": "식재료",
+          "use": "회복 음식 제작",
+          "drop_rate": 0.003
+        },
+        "item2": {
+          "item": "얼어붙은 슬라임 털가죽",
+          "type": "잡화",
+          "use": "잡화 상점 판매",
+          "drop_rate": 0.02
+        },
+        "item3": {
+          "item": "빙속성 정수",
+          "type": "속성 재료",
+          "use": "빙속성 방어구 제작",
+          "drop_rate": 0.0002
+        }
+      },
+      "money": 1080,
+      "exp": 540
+    },
+    {
+      "level": 55,
+      "name": "고대의 도마뱀",
+      "location": "독의 늪지",
+      "condition": "주간에 등장",
+      "boss": false,
+      "element": "화속성",
+      "drop": {
+        "item1": {
+          "item": "고대의 도마뱀 고기",
+          "type": "식재료",
+          "use": "회복 음식 제작",
+          "drop_rate": 0.003
+        },
+        "item2": {
+          "item": "고대의 도마뱀 털가죽",
+          "type": "잡화",
+          "use": "잡화 상점 판매",
+          "drop_rate": 0.02
+        },
+        "item3": {
+          "item": "화속성 정수",
+          "type": "속성 재료",
+          "use": "화속성 방어구 제작",
+          "drop_rate": 0.0002
+        }
+      },
+      "money": 1100,
+      "exp": 550
+    },
+    {
+      "level": 56,
+      "name": "달빛 지네",
+      "location": "깊은 동굴",
+      "condition": "밤에 등장",
+      "boss": false,
+      "element": "수속성",
+      "drop": {
+        "item1": {
+          "item": "달빛 지네 고기",
+          "type": "식재료",
+          "use": "회복 음식 제작",
+          "drop_rate": 0.003
+        },
+        "item2": {
+          "item": "달빛 지네 털가죽",
+          "type": "잡화",
+          "use": "잡화 상점 판매",
+          "drop_rate": 0.02
+        },
+        "item3": {
+          "item": "수속성 정수",
+          "type": "속성 재료",
+          "use": "수속성 방어구 제작",
+          "drop_rate": 0.0002
+        }
+      },
+      "money": 1120,
+      "exp": 560
+    },
+    {
+      "level": 57,
+      "name": "불타는 도마뱀",
+      "location": "초원지대",
+      "condition": "주간에 등장",
+      "boss": false,
+      "element": "암속성",
+      "drop": {
+        "item1": {
+          "item": "불타는 도마뱀 고기",
+          "type": "식재료",
+          "use": "회복 음식 제작",
+          "drop_rate": 0.003
+        },
+        "item2": {
+          "item": "불타는 도마뱀 털가죽",
+          "type": "잡화",
+          "use": "잡화 상점 판매",
+          "drop_rate": 0.02
+        },
+        "item3": {
+          "item": "암속성 정수",
+          "type": "속성 재료",
+          "use": "암속성 방어구 제작",
+          "drop_rate": 0.0002
+        }
+      },
+      "money": 1140,
+      "exp": 570
+    },
+    {
+      "level": 58,
+      "name": "달빛 유령",
+      "location": "초원지대",
+      "condition": "밤에 등장",
+      "boss": false,
+      "element": "암속성",
+      "drop": {
+        "item1": {
+          "item": "달빛 유령 고기",
+          "type": "식재료",
+          "use": "회복 음식 제작",
+          "drop_rate": 0.003
+        },
+        "item2": {
+          "item": "달빛 유령 털가죽",
+          "type": "잡화",
+          "use": "잡화 상점 판매",
+          "drop_rate": 0.02
+        },
+        "item3": {
+          "item": "암속성 정수",
+          "type": "속성 재료",
+          "use": "암속성 방어구 제작",
+          "drop_rate": 0.0002
+        }
+      },
+      "money": 1160,
+      "exp": 580
+    },
+    {
+      "level": 59,
+      "name": "번개 박쥐",
+      "location": "깊은 동굴",
+      "condition": "주간에 등장",
+      "boss": false,
+      "element": "풍속성",
+      "drop": {
+        "item1": {
+          "item": "번개 박쥐 고기",
+          "type": "식재료",
+          "use": "회복 음식 제작",
+          "drop_rate": 0.003
+        },
+        "item2": {
+          "item": "번개 박쥐 털가죽",
+          "type": "잡화",
+          "use": "잡화 상점 판매",
+          "drop_rate": 0.02
+        },
+        "item3": {
+          "item": "풍속성 정수",
+          "type": "속성 재료",
+          "use": "풍속성 방어구 제작",
+          "drop_rate": 0.0002
+        }
+      },
+      "money": 1180,
+      "exp": 590
+    },
+    {
+      "level": 60,
+      "name": "파멸의 늑대",
+      "location": "얼음 협곡",
+      "condition": "밤에 등장",
+      "boss": false,
+      "element": "빙속성",
+      "drop": {
+        "item1": {
+          "item": "파멸의 늑대 고기",
+          "type": "식재료",
+          "use": "회복 음식 제작",
+          "drop_rate": 0.003
+        },
+        "item2": {
+          "item": "파멸의 늑대 털가죽",
+          "type": "잡화",
+          "use": "잡화 상점 판매",
+          "drop_rate": 0.02
+        },
+        "item3": {
+          "item": "빙속성 정수",
+          "type": "속성 재료",
+          "use": "빙속성 방어구 제작",
+          "drop_rate": 0.0002
+        }
+      },
+      "money": 1200,
+      "exp": 600
+    },
+    {
+      "level": 61,
+      "name": "번개 늑대",
+      "location": "사막 분지",
+      "condition": "주간에 등장",
+      "boss": false,
+      "element": "광속성",
+      "drop": {
+        "item1": {
+          "item": "번개 늑대 고기",
+          "type": "식재료",
+          "use": "회복 음식 제작",
+          "drop_rate": 0.003
+        },
+        "item2": {
+          "item": "번개 늑대 털가죽",
+          "type": "잡화",
+          "use": "잡화 상점 판매",
+          "drop_rate": 0.02
+        },
+        "item3": {
+          "item": "광속성 정수",
+          "type": "속성 재료",
+          "use": "광속성 방어구 제작",
+          "drop_rate": 0.0002
+        }
+      },
+      "money": 1220,
+      "exp": 610
+    },
+    {
+      "level": 62,
+      "name": "불타는 늑대",
+      "location": "안개숲",
+      "condition": "밤에 등장",
+      "boss": false,
+      "element": "광속성",
+      "drop": {
+        "item1": {
+          "item": "불타는 늑대 고기",
+          "type": "식재료",
+          "use": "회복 음식 제작",
+          "drop_rate": 0.003
+        },
+        "item2": {
+          "item": "불타는 늑대 털가죽",
+          "type": "잡화",
+          "use": "잡화 상점 판매",
+          "drop_rate": 0.02
+        },
+        "item3": {
+          "item": "광속성 정수",
+          "type": "속성 재료",
+          "use": "광속성 방어구 제작",
+          "drop_rate": 0.0002
+        }
+      },
+      "money": 1240,
+      "exp": 620
+    },
+    {
+      "level": 63,
+      "name": "번개 유령",
+      "location": "깊은 동굴",
+      "condition": "주간에 등장",
+      "boss": false,
+      "element": "풍속성",
+      "drop": {
+        "item1": {
+          "item": "번개 유령 고기",
+          "type": "식재료",
+          "use": "회복 음식 제작",
+          "drop_rate": 0.003
+        },
+        "item2": {
+          "item": "번개 유령 털가죽",
+          "type": "잡화",
+          "use": "잡화 상점 판매",
+          "drop_rate": 0.02
+        },
+        "item3": {
+          "item": "풍속성 정수",
+          "type": "속성 재료",
+          "use": "풍속성 방어구 제작",
+          "drop_rate": 0.0002
+        }
+      },
+      "money": 1260,
+      "exp": 630
+    },
+    {
+      "level": 64,
+      "name": "번개 박쥐",
+      "location": "사막 분지",
+      "condition": "밤에 등장",
+      "boss": false,
+      "element": "풍속성",
+      "drop": {
+        "item1": {
+          "item": "번개 박쥐 고기",
+          "type": "식재료",
+          "use": "회복 음식 제작",
+          "drop_rate": 0.003
+        },
+        "item2": {
+          "item": "번개 박쥐 털가죽",
+          "type": "잡화",
+          "use": "잡화 상점 판매",
+          "drop_rate": 0.02
+        },
+        "item3": {
+          "item": "풍속성 정수",
+          "type": "속성 재료",
+          "use": "풍속성 방어구 제작",
+          "drop_rate": 0.0002
+        }
+      },
+      "money": 1280,
+      "exp": 640
+    },
+    {
+      "level": 65,
+      "name": "피투성이 드래곤",
+      "location": "독의 늪지",
+      "condition": "주간에 등장",
+      "boss": false,
+      "element": "화속성",
+      "drop": {
+        "item1": {
+          "item": "피투성이 드래곤 고기",
+          "type": "식재료",
+          "use": "회복 음식 제작",
+          "drop_rate": 0.003
+        },
+        "item2": {
+          "item": "피투성이 드래곤 털가죽",
+          "type": "잡화",
+          "use": "잡화 상점 판매",
+          "drop_rate": 0.02
+        },
+        "item3": {
+          "item": "화속성 정수",
+          "type": "속성 재료",
+          "use": "화속성 방어구 제작",
+          "drop_rate": 0.0002
+        }
+      },
+      "money": 1300,
+      "exp": 650
+    },
+    {
+      "level": 66,
+      "name": "고대의 사자",
+      "location": "사막 분지",
+      "condition": "밤에 등장",
+      "boss": false,
+      "element": "무속성",
+      "drop": {
+        "item1": {
+          "item": "고대의 사자 고기",
+          "type": "식재료",
+          "use": "회복 음식 제작",
+          "drop_rate": 0.003
+        },
+        "item2": {
+          "item": "고대의 사자 털가죽",
+          "type": "잡화",
+          "use": "잡화 상점 판매",
+          "drop_rate": 0.02
+        },
+        "item3": {
+          "item": "무속성 정수",
+          "type": "속성 재료",
+          "use": "무속성 방어구 제작",
+          "drop_rate": 0.0002
+        }
+      },
+      "money": 1320,
+      "exp": 660
+    },
+    {
+      "level": 67,
+      "name": "얼어붙은 골렘",
+      "location": "얼음 협곡",
+      "condition": "주간에 등장",
+      "boss": false,
+      "element": "빙속성",
+      "drop": {
+        "item1": {
+          "item": "얼어붙은 골렘 고기",
+          "type": "식재료",
+          "use": "회복 음식 제작",
+          "drop_rate": 0.003
+        },
+        "item2": {
+          "item": "얼어붙은 골렘 털가죽",
+          "type": "잡화",
+          "use": "잡화 상점 판매",
+          "drop_rate": 0.02
+        },
+        "item3": {
+          "item": "빙속성 정수",
+          "type": "속성 재료",
+          "use": "빙속성 방어구 제작",
+          "drop_rate": 0.0002
+        }
+      },
+      "money": 1340,
+      "exp": 670
+    },
+    {
+      "level": 68,
+      "name": "번개 슬라임",
+      "location": "안개숲",
+      "condition": "밤에 등장",
+      "boss": false,
+      "element": "지속성",
+      "drop": {
+        "item1": {
+          "item": "번개 슬라임 고기",
+          "type": "식재료",
+          "use": "회복 음식 제작",
+          "drop_rate": 0.003
+        },
+        "item2": {
+          "item": "번개 슬라임 털가죽",
+          "type": "잡화",
+          "use": "잡화 상점 판매",
+          "drop_rate": 0.02
+        },
+        "item3": {
+          "item": "지속성 정수",
+          "type": "속성 재료",
+          "use": "지속성 방어구 제작",
+          "drop_rate": 0.0002
+        }
+      },
+      "money": 1360,
+      "exp": 680
+    },
+    {
+      "level": 69,
+      "name": "광기의 골렘",
+      "location": "깊은 동굴",
+      "condition": "주간에 등장",
+      "boss": false,
+      "element": "화속성",
+      "drop": {
+        "item1": {
+          "item": "광기의 골렘 고기",
+          "type": "식재료",
+          "use": "회복 음식 제작",
+          "drop_rate": 0.003
+        },
+        "item2": {
+          "item": "광기의 골렘 털가죽",
+          "type": "잡화",
+          "use": "잡화 상점 판매",
+          "drop_rate": 0.02
+        },
+        "item3": {
+          "item": "화속성 정수",
+          "type": "속성 재료",
+          "use": "화속성 방어구 제작",
+          "drop_rate": 0.0002
+        }
+      },
+      "money": 1380,
+      "exp": 690
+    },
+    {
+      "level": 70,
+      "name": "피투성이 유령",
+      "location": "얼음 협곡",
+      "condition": "밤에 등장",
+      "boss": false,
+      "element": "빙속성",
+      "drop": {
+        "item1": {
+          "item": "피투성이 유령 고기",
+          "type": "식재료",
+          "use": "회복 음식 제작",
+          "drop_rate": 0.003
+        },
+        "item2": {
+          "item": "피투성이 유령 털가죽",
+          "type": "잡화",
+          "use": "잡화 상점 판매",
+          "drop_rate": 0.02
+        },
+        "item3": {
+          "item": "빙속성 정수",
+          "type": "속성 재료",
+          "use": "빙속성 방어구 제작",
+          "drop_rate": 0.0002
+        }
+      },
+      "money": 1400,
+      "exp": 700
+    },
+    {
+      "level": 71,
+      "name": "달빛 유령",
+      "location": "얼음 협곡",
+      "condition": "주간에 등장",
+      "boss": false,
+      "element": "무속성",
+      "drop": {
+        "item1": {
+          "item": "달빛 유령 고기",
+          "type": "식재료",
+          "use": "회복 음식 제작",
+          "drop_rate": 0.003
+        },
+        "item2": {
+          "item": "달빛 유령 털가죽",
+          "type": "잡화",
+          "use": "잡화 상점 판매",
+          "drop_rate": 0.02
+        },
+        "item3": {
+          "item": "무속성 정수",
+          "type": "속성 재료",
+          "use": "무속성 방어구 제작",
+          "drop_rate": 0.0002
+        }
+      },
+      "money": 1420,
+      "exp": 710
+    },
+    {
+      "level": 72,
+      "name": "고대의 유령",
+      "location": "독의 늪지",
+      "condition": "밤에 등장",
+      "boss": false,
+      "element": "풍속성",
+      "drop": {
+        "item1": {
+          "item": "고대의 유령 고기",
+          "type": "식재료",
+          "use": "회복 음식 제작",
+          "drop_rate": 0.003
+        },
+        "item2": {
+          "item": "고대의 유령 털가죽",
+          "type": "잡화",
+          "use": "잡화 상점 판매",
+          "drop_rate": 0.02
+        },
+        "item3": {
+          "item": "풍속성 정수",
+          "type": "속성 재료",
+          "use": "풍속성 방어구 제작",
+          "drop_rate": 0.0002
+        }
+      },
+      "money": 1440,
+      "exp": 720
+    },
+    {
+      "level": 73,
+      "name": "고대의 사자",
+      "location": "안개숲",
+      "condition": "주간에 등장",
+      "boss": false,
+      "element": "수속성",
+      "drop": {
+        "item1": {
+          "item": "고대의 사자 고기",
+          "type": "식재료",
+          "use": "회복 음식 제작",
+          "drop_rate": 0.003
+        },
+        "item2": {
+          "item": "고대의 사자 털가죽",
+          "type": "잡화",
+          "use": "잡화 상점 판매",
+          "drop_rate": 0.02
+        },
+        "item3": {
+          "item": "수속성 정수",
+          "type": "속성 재료",
+          "use": "수속성 방어구 제작",
+          "drop_rate": 0.0002
+        }
+      },
+      "money": 1460,
+      "exp": 730
+    },
+    {
+      "level": 74,
+      "name": "불타는 박쥐",
+      "location": "달빛 숲",
+      "condition": "밤에 등장",
+      "boss": false,
+      "element": "화속성",
+      "drop": {
+        "item1": {
+          "item": "불타는 박쥐 고기",
+          "type": "식재료",
+          "use": "회복 음식 제작",
+          "drop_rate": 0.003
+        },
+        "item2": {
+          "item": "불타는 박쥐 털가죽",
+          "type": "잡화",
+          "use": "잡화 상점 판매",
+          "drop_rate": 0.02
+        },
+        "item3": {
+          "item": "화속성 정수",
+          "type": "속성 재료",
+          "use": "화속성 방어구 제작",
+          "drop_rate": 0.0002
+        }
+      },
+      "money": 1480,
+      "exp": 740
+    },
+    {
+      "level": 75,
+      "name": "번개 곰",
+      "location": "사막 분지",
+      "condition": "주간에 등장",
+      "boss": true,
+      "element": "광속성",
+      "drop": {
+        "item1": {
+          "item": "번개 곰 고기",
+          "type": "식재료",
+          "use": "회복 음식 제작",
+          "drop_rate": 0.003
+        },
+        "item2": {
+          "item": "번개 곰 털가죽",
+          "type": "잡화",
+          "use": "잡화 상점 판매",
+          "drop_rate": 0.02
+        },
+        "item3": {
+          "item": "광속성 정수",
+          "type": "속성 재료",
+          "use": "광속성 방어구 제작",
+          "drop_rate": 0.0002
+        }
+      },
+      "money": 1500,
+      "exp": 750
+    },
+    {
+      "level": 76,
+      "name": "달빛 도마뱀",
+      "location": "달빛 숲",
+      "condition": "밤에 등장",
+      "boss": false,
+      "element": "수속성",
+      "drop": {
+        "item1": {
+          "item": "달빛 도마뱀 고기",
+          "type": "식재료",
+          "use": "회복 음식 제작",
+          "drop_rate": 0.003
+        },
+        "item2": {
+          "item": "달빛 도마뱀 털가죽",
+          "type": "잡화",
+          "use": "잡화 상점 판매",
+          "drop_rate": 0.02
+        },
+        "item3": {
+          "item": "수속성 정수",
+          "type": "속성 재료",
+          "use": "수속성 방어구 제작",
+          "drop_rate": 0.0002
+        }
+      },
+      "money": 1520,
+      "exp": 760
+    },
+    {
+      "level": 77,
+      "name": "신성한 드래곤",
+      "location": "불의 계곡",
+      "condition": "주간에 등장",
+      "boss": false,
+      "element": "광속성",
+      "drop": {
+        "item1": {
+          "item": "신성한 드래곤 고기",
+          "type": "식재료",
+          "use": "회복 음식 제작",
+          "drop_rate": 0.003
+        },
+        "item2": {
+          "item": "신성한 드래곤 털가죽",
+          "type": "잡화",
+          "use": "잡화 상점 판매",
+          "drop_rate": 0.02
+        },
+        "item3": {
+          "item": "광속성 정수",
+          "type": "속성 재료",
+          "use": "광속성 방어구 제작",
+          "drop_rate": 0.0002
+        }
+      },
+      "money": 1540,
+      "exp": 770
+    },
+    {
+      "level": 78,
+      "name": "어둠의 골렘",
+      "location": "얼음 협곡",
+      "condition": "밤에 등장",
+      "boss": false,
+      "element": "화속성",
+      "drop": {
+        "item1": {
+          "item": "어둠의 골렘 고기",
+          "type": "식재료",
+          "use": "회복 음식 제작",
+          "drop_rate": 0.003
+        },
+        "item2": {
+          "item": "어둠의 골렘 털가죽",
+          "type": "잡화",
+          "use": "잡화 상점 판매",
+          "drop_rate": 0.02
+        },
+        "item3": {
+          "item": "화속성 정수",
+          "type": "속성 재료",
+          "use": "화속성 방어구 제작",
+          "drop_rate": 0.0002
+        }
+      },
+      "money": 1560,
+      "exp": 780
+    },
+    {
+      "level": 79,
+      "name": "얼어붙은 지네",
+      "location": "안개숲",
+      "condition": "주간에 등장",
+      "boss": false,
+      "element": "광속성",
+      "drop": {
+        "item1": {
+          "item": "얼어붙은 지네 고기",
+          "type": "식재료",
+          "use": "회복 음식 제작",
+          "drop_rate": 0.003
+        },
+        "item2": {
+          "item": "얼어붙은 지네 털가죽",
+          "type": "잡화",
+          "use": "잡화 상점 판매",
+          "drop_rate": 0.02
+        },
+        "item3": {
+          "item": "광속성 정수",
+          "type": "속성 재료",
+          "use": "광속성 방어구 제작",
+          "drop_rate": 0.0002
+        }
+      },
+      "money": 1580,
+      "exp": 790
+    },
+    {
+      "level": 80,
+      "name": "번개 지네",
+      "location": "독의 늪지",
+      "condition": "밤에 등장",
+      "boss": false,
+      "element": "무속성",
+      "drop": {
+        "item1": {
+          "item": "번개 지네 고기",
+          "type": "식재료",
+          "use": "회복 음식 제작",
+          "drop_rate": 0.003
+        },
+        "item2": {
+          "item": "번개 지네 털가죽",
+          "type": "잡화",
+          "use": "잡화 상점 판매",
+          "drop_rate": 0.02
+        },
+        "item3": {
+          "item": "무속성 정수",
+          "type": "속성 재료",
+          "use": "무속성 방어구 제작",
+          "drop_rate": 0.0002
+        }
+      },
+      "money": 1600,
+      "exp": 800
+    },
+    {
+      "level": 81,
+      "name": "어둠의 지네",
+      "location": "불의 계곡",
+      "condition": "주간에 등장",
+      "boss": false,
+      "element": "광속성",
+      "drop": {
+        "item1": {
+          "item": "어둠의 지네 고기",
+          "type": "식재료",
+          "use": "회복 음식 제작",
+          "drop_rate": 0.003
+        },
+        "item2": {
+          "item": "어둠의 지네 털가죽",
+          "type": "잡화",
+          "use": "잡화 상점 판매",
+          "drop_rate": 0.02
+        },
+        "item3": {
+          "item": "광속성 정수",
+          "type": "속성 재료",
+          "use": "광속성 방어구 제작",
+          "drop_rate": 0.0002
+        }
+      },
+      "money": 1620,
+      "exp": 810
+    },
+    {
+      "level": 82,
+      "name": "파멸의 드래곤",
+      "location": "달빛 숲",
+      "condition": "밤에 등장",
+      "boss": false,
+      "element": "화속성",
+      "drop": {
+        "item1": {
+          "item": "파멸의 드래곤 고기",
+          "type": "식재료",
+          "use": "회복 음식 제작",
+          "drop_rate": 0.003
+        },
+        "item2": {
+          "item": "파멸의 드래곤 털가죽",
+          "type": "잡화",
+          "use": "잡화 상점 판매",
+          "drop_rate": 0.02
+        },
+        "item3": {
+          "item": "화속성 정수",
+          "type": "속성 재료",
+          "use": "화속성 방어구 제작",
+          "drop_rate": 0.0002
+        }
+      },
+      "money": 1640,
+      "exp": 820
+    },
+    {
+      "level": 83,
+      "name": "신성한 곰",
+      "location": "안개숲",
+      "condition": "주간에 등장",
+      "boss": false,
+      "element": "암속성",
+      "drop": {
+        "item1": {
+          "item": "신성한 곰 고기",
+          "type": "식재료",
+          "use": "회복 음식 제작",
+          "drop_rate": 0.003
+        },
+        "item2": {
+          "item": "신성한 곰 털가죽",
+          "type": "잡화",
+          "use": "잡화 상점 판매",
+          "drop_rate": 0.02
+        },
+        "item3": {
+          "item": "암속성 정수",
+          "type": "속성 재료",
+          "use": "암속성 방어구 제작",
+          "drop_rate": 0.0002
+        }
+      },
+      "money": 1660,
+      "exp": 830
+    },
+    {
+      "level": 84,
+      "name": "피투성이 사자",
+      "location": "독의 늪지",
+      "condition": "밤에 등장",
+      "boss": false,
+      "element": "수속성",
+      "drop": {
+        "item1": {
+          "item": "피투성이 사자 고기",
+          "type": "식재료",
+          "use": "회복 음식 제작",
+          "drop_rate": 0.003
+        },
+        "item2": {
+          "item": "피투성이 사자 털가죽",
+          "type": "잡화",
+          "use": "잡화 상점 판매",
+          "drop_rate": 0.02
+        },
+        "item3": {
+          "item": "수속성 정수",
+          "type": "속성 재료",
+          "use": "수속성 방어구 제작",
+          "drop_rate": 0.0002
+        }
+      },
+      "money": 1680,
+      "exp": 840
+    },
+    {
+      "level": 85,
+      "name": "고대의 유령",
+      "location": "초원지대",
+      "condition": "주간에 등장",
+      "boss": false,
+      "element": "수속성",
+      "drop": {
+        "item1": {
+          "item": "고대의 유령 고기",
+          "type": "식재료",
+          "use": "회복 음식 제작",
+          "drop_rate": 0.003
+        },
+        "item2": {
+          "item": "고대의 유령 털가죽",
+          "type": "잡화",
+          "use": "잡화 상점 판매",
+          "drop_rate": 0.02
+        },
+        "item3": {
+          "item": "수속성 정수",
+          "type": "속성 재료",
+          "use": "수속성 방어구 제작",
+          "drop_rate": 0.0002
+        }
+      },
+      "money": 1700,
+      "exp": 850
+    },
+    {
+      "level": 86,
+      "name": "달빛 슬라임",
+      "location": "독의 늪지",
+      "condition": "밤에 등장",
+      "boss": false,
+      "element": "광속성",
+      "drop": {
+        "item1": {
+          "item": "달빛 슬라임 고기",
+          "type": "식재료",
+          "use": "회복 음식 제작",
+          "drop_rate": 0.003
+        },
+        "item2": {
+          "item": "달빛 슬라임 털가죽",
+          "type": "잡화",
+          "use": "잡화 상점 판매",
+          "drop_rate": 0.02
+        },
+        "item3": {
+          "item": "광속성 정수",
+          "type": "속성 재료",
+          "use": "광속성 방어구 제작",
+          "drop_rate": 0.0002
+        }
+      },
+      "money": 1720,
+      "exp": 860
+    },
+    {
+      "level": 87,
+      "name": "불타는 드래곤",
+      "location": "사막 분지",
+      "condition": "주간에 등장",
+      "boss": false,
+      "element": "빙속성",
+      "drop": {
+        "item1": {
+          "item": "불타는 드래곤 고기",
+          "type": "식재료",
+          "use": "회복 음식 제작",
+          "drop_rate": 0.003
+        },
+        "item2": {
+          "item": "불타는 드래곤 털가죽",
+          "type": "잡화",
+          "use": "잡화 상점 판매",
+          "drop_rate": 0.02
+        },
+        "item3": {
+          "item": "빙속성 정수",
+          "type": "속성 재료",
+          "use": "빙속성 방어구 제작",
+          "drop_rate": 0.0002
+        }
+      },
+      "money": 1740,
+      "exp": 870
+    },
+    {
+      "level": 88,
+      "name": "얼어붙은 도마뱀",
+      "location": "독의 늪지",
+      "condition": "밤에 등장",
+      "boss": false,
+      "element": "암속성",
+      "drop": {
+        "item1": {
+          "item": "얼어붙은 도마뱀 고기",
+          "type": "식재료",
+          "use": "회복 음식 제작",
+          "drop_rate": 0.003
+        },
+        "item2": {
+          "item": "얼어붙은 도마뱀 털가죽",
+          "type": "잡화",
+          "use": "잡화 상점 판매",
+          "drop_rate": 0.02
+        },
+        "item3": {
+          "item": "암속성 정수",
+          "type": "속성 재료",
+          "use": "암속성 방어구 제작",
+          "drop_rate": 0.0002
+        }
+      },
+      "money": 1760,
+      "exp": 880
+    },
+    {
+      "level": 89,
+      "name": "광기의 도마뱀",
+      "location": "달빛 숲",
+      "condition": "주간에 등장",
+      "boss": false,
+      "element": "빙속성",
+      "drop": {
+        "item1": {
+          "item": "광기의 도마뱀 고기",
+          "type": "식재료",
+          "use": "회복 음식 제작",
+          "drop_rate": 0.003
+        },
+        "item2": {
+          "item": "광기의 도마뱀 털가죽",
+          "type": "잡화",
+          "use": "잡화 상점 판매",
+          "drop_rate": 0.02
+        },
+        "item3": {
+          "item": "빙속성 정수",
+          "type": "속성 재료",
+          "use": "빙속성 방어구 제작",
+          "drop_rate": 0.0002
+        }
+      },
+      "money": 1780,
+      "exp": 890
+    },
+    {
+      "level": 90,
+      "name": "피투성이 지네",
+      "location": "안개숲",
+      "condition": "밤에 등장",
+      "boss": false,
+      "element": "화속성",
+      "drop": {
+        "item1": {
+          "item": "피투성이 지네 고기",
+          "type": "식재료",
+          "use": "회복 음식 제작",
+          "drop_rate": 0.003
+        },
+        "item2": {
+          "item": "피투성이 지네 털가죽",
+          "type": "잡화",
+          "use": "잡화 상점 판매",
+          "drop_rate": 0.02
+        },
+        "item3": {
+          "item": "화속성 정수",
+          "type": "속성 재료",
+          "use": "화속성 방어구 제작",
+          "drop_rate": 0.0002
+        }
+      },
+      "money": 1800,
+      "exp": 900
+    },
+    {
+      "level": 91,
+      "name": "파멸의 드래곤",
+      "location": "사막 분지",
+      "condition": "주간에 등장",
+      "boss": false,
+      "element": "암속성",
+      "drop": {
+        "item1": {
+          "item": "파멸의 드래곤 고기",
+          "type": "식재료",
+          "use": "회복 음식 제작",
+          "drop_rate": 0.003
+        },
+        "item2": {
+          "item": "파멸의 드래곤 털가죽",
+          "type": "잡화",
+          "use": "잡화 상점 판매",
+          "drop_rate": 0.02
+        },
+        "item3": {
+          "item": "암속성 정수",
+          "type": "속성 재료",
+          "use": "암속성 방어구 제작",
+          "drop_rate": 0.0002
+        }
+      },
+      "money": 1820,
+      "exp": 910
+    },
+    {
+      "level": 92,
+      "name": "얼어붙은 사자",
+      "location": "얼음 협곡",
+      "condition": "밤에 등장",
+      "boss": false,
+      "element": "수속성",
+      "drop": {
+        "item1": {
+          "item": "얼어붙은 사자 고기",
+          "type": "식재료",
+          "use": "회복 음식 제작",
+          "drop_rate": 0.003
+        },
+        "item2": {
+          "item": "얼어붙은 사자 털가죽",
+          "type": "잡화",
+          "use": "잡화 상점 판매",
+          "drop_rate": 0.02
+        },
+        "item3": {
+          "item": "수속성 정수",
+          "type": "속성 재료",
+          "use": "수속성 방어구 제작",
+          "drop_rate": 0.0002
+        }
+      },
+      "money": 1840,
+      "exp": 920
+    },
+    {
+      "level": 93,
+      "name": "어둠의 사자",
+      "location": "불의 계곡",
+      "condition": "주간에 등장",
+      "boss": false,
+      "element": "빙속성",
+      "drop": {
+        "item1": {
+          "item": "어둠의 사자 고기",
+          "type": "식재료",
+          "use": "회복 음식 제작",
+          "drop_rate": 0.003
+        },
+        "item2": {
+          "item": "어둠의 사자 털가죽",
+          "type": "잡화",
+          "use": "잡화 상점 판매",
+          "drop_rate": 0.02
+        },
+        "item3": {
+          "item": "빙속성 정수",
+          "type": "속성 재료",
+          "use": "빙속성 방어구 제작",
+          "drop_rate": 0.0002
+        }
+      },
+      "money": 1860,
+      "exp": 930
+    },
+    {
+      "level": 94,
+      "name": "얼어붙은 곰",
+      "location": "깊은 동굴",
+      "condition": "밤에 등장",
+      "boss": false,
+      "element": "무속성",
+      "drop": {
+        "item1": {
+          "item": "얼어붙은 곰 고기",
+          "type": "식재료",
+          "use": "회복 음식 제작",
+          "drop_rate": 0.003
+        },
+        "item2": {
+          "item": "얼어붙은 곰 털가죽",
+          "type": "잡화",
+          "use": "잡화 상점 판매",
+          "drop_rate": 0.02
+        },
+        "item3": {
+          "item": "무속성 정수",
+          "type": "속성 재료",
+          "use": "무속성 방어구 제작",
+          "drop_rate": 0.0002
+        }
+      },
+      "money": 1880,
+      "exp": 940
+    },
+    {
+      "level": 95,
+      "name": "번개 사자",
+      "location": "깊은 동굴",
+      "condition": "주간에 등장",
+      "boss": false,
+      "element": "지속성",
+      "drop": {
+        "item1": {
+          "item": "번개 사자 고기",
+          "type": "식재료",
+          "use": "회복 음식 제작",
+          "drop_rate": 0.003
+        },
+        "item2": {
+          "item": "번개 사자 털가죽",
+          "type": "잡화",
+          "use": "잡화 상점 판매",
+          "drop_rate": 0.02
+        },
+        "item3": {
+          "item": "지속성 정수",
+          "type": "속성 재료",
+          "use": "지속성 방어구 제작",
+          "drop_rate": 0.0002
+        }
+      },
+      "money": 1900,
+      "exp": 950
+    },
+    {
+      "level": 96,
+      "name": "얼어붙은 지네",
+      "location": "초원지대",
+      "condition": "밤에 등장",
+      "boss": false,
+      "element": "광속성",
+      "drop": {
+        "item1": {
+          "item": "얼어붙은 지네 고기",
+          "type": "식재료",
+          "use": "회복 음식 제작",
+          "drop_rate": 0.003
+        },
+        "item2": {
+          "item": "얼어붙은 지네 털가죽",
+          "type": "잡화",
+          "use": "잡화 상점 판매",
+          "drop_rate": 0.02
+        },
+        "item3": {
+          "item": "광속성 정수",
+          "type": "속성 재료",
+          "use": "광속성 방어구 제작",
+          "drop_rate": 0.0002
+        }
+      },
+      "money": 1920,
+      "exp": 960
+    },
+    {
+      "level": 97,
+      "name": "달빛 박쥐",
+      "location": "사막 분지",
+      "condition": "주간에 등장",
+      "boss": false,
+      "element": "빙속성",
+      "drop": {
+        "item1": {
+          "item": "달빛 박쥐 고기",
+          "type": "식재료",
+          "use": "회복 음식 제작",
+          "drop_rate": 0.003
+        },
+        "item2": {
+          "item": "달빛 박쥐 털가죽",
+          "type": "잡화",
+          "use": "잡화 상점 판매",
+          "drop_rate": 0.02
+        },
+        "item3": {
+          "item": "빙속성 정수",
+          "type": "속성 재료",
+          "use": "빙속성 방어구 제작",
+          "drop_rate": 0.0002
+        }
+      },
+      "money": 1940,
+      "exp": 970
+    },
+    {
+      "level": 98,
+      "name": "불타는 슬라임",
+      "location": "달빛 숲",
+      "condition": "밤에 등장",
+      "boss": false,
+      "element": "풍속성",
+      "drop": {
+        "item1": {
+          "item": "불타는 슬라임 고기",
+          "type": "식재료",
+          "use": "회복 음식 제작",
+          "drop_rate": 0.003
+        },
+        "item2": {
+          "item": "불타는 슬라임 털가죽",
+          "type": "잡화",
+          "use": "잡화 상점 판매",
+          "drop_rate": 0.02
+        },
+        "item3": {
+          "item": "풍속성 정수",
+          "type": "속성 재료",
+          "use": "풍속성 방어구 제작",
+          "drop_rate": 0.0002
+        }
+      },
+      "money": 1960,
+      "exp": 980
+    },
+    {
+      "level": 99,
+      "name": "얼어붙은 박쥐",
+      "location": "독의 늪지",
+      "condition": "주간에 등장",
+      "boss": false,
+      "element": "빙속성",
+      "drop": {
+        "item1": {
+          "item": "얼어붙은 박쥐 고기",
+          "type": "식재료",
+          "use": "회복 음식 제작",
+          "drop_rate": 0.003
+        },
+        "item2": {
+          "item": "얼어붙은 박쥐 털가죽",
+          "type": "잡화",
+          "use": "잡화 상점 판매",
+          "drop_rate": 0.02
+        },
+        "item3": {
+          "item": "빙속성 정수",
+          "type": "속성 재료",
+          "use": "빙속성 방어구 제작",
+          "drop_rate": 0.0002
+        }
+      },
+      "money": 1980,
+      "exp": 990
+    },
+    {
+      "level": 100,
+      "name": "피투성이 유령",
+      "location": "얼음 협곡",
+      "condition": "밤에 등장",
+      "boss": true,
+      "element": "무속성",
+      "drop": {
+        "item1": {
+          "item": "피투성이 유령 고기",
+          "type": "식재료",
+          "use": "회복 음식 제작",
+          "drop_rate": 0.003
+        },
+        "item2": {
+          "item": "피투성이 유령 털가죽",
+          "type": "잡화",
+          "use": "잡화 상점 판매",
+          "drop_rate": 0.02
+        },
+        "item3": {
+          "item": "무속성 정수",
+          "type": "속성 재료",
+          "use": "무속성 방어구 제작",
+          "drop_rate": 0.0002
+        }
+      },
+      "money": 2000,
+      "exp": 1000
+    }
+  ]
+}

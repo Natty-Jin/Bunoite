@@ -1,0 +1,34 @@
+{
+  "monsters": [
+    {
+      "level": 1,
+      "name": "신성한 곰",
+      "location": "초원지대",
+      "condition": "주간에 등장",
+      "boss": false,
+      "element": "빙속성",
+      "drop": {
+        "item1": {
+          "item": "신성한 곰 고기",
+          "type": "식재료",
+          "use": "회복 음식 제작",
+          "drop_rate": 0.003
+        },
+        "item2": {
+          "item": "신성한 곰 털가죽",
+          "type": "잡화",
+          "use": "잡화 상점 판매",
+          "drop_rate": 0.02
+        },
+        "item3": {
+          "item": "빙속성 정수",
+          "type": "속성 재료",
+          "use": "빙속성 방어구 제작",
+          "drop_rate": 0.0002
+        }
+      },
+      "money": 28,
+      "exp": 10
+    }
+  ]
+} 

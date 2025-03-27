@@ -1,0 +1,9 @@
+{
+    "expTable": [
+        {"level": 1, "required_exp": 1000},
+        {"level": 2, "required_exp": 4000},
+        {"level": 3, "required_exp": 9000},
+        {"level": 4, "required_exp": 16000},
+        {"level": 5, "required_exp": 25000}
+    ]
+} 
